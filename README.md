@@ -40,7 +40,7 @@ The first connection opens an Apify sign-in. You can also send `Authorization: B
 
 ## Cost
 
-Each Actor is billed per result on **your** Apify account, from $0.0012 to $0.005 per result plus $0.01 per run start. A 50-result call costs about $0.07 to $0.30 depending on the Actor. Apify's free plan includes monthly credits.
+Each Actor is billed per result on **your** Apify account, from $0.001 to $0.005 per result plus $0.01 per run start. A 50-result call costs about $0.07 to $0.30 depending on the Actor. Apify's free plan includes monthly credits.
 
 ## Also available as REST APIs
 
