@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morvanvivien/bibian-data",
+  "title": "Jobs and market data: France, Germany, Spain, Latin America",
+  "description": "Public job postings and market data as clean JSON: Free-Work, Arbeitsagentur, Infoempleo, Bumeran, Codeur, AlloCine, KissKissBankBank.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/morvanvivien/bibian-data-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=bibian/free-work-jobs-scraper,bibian/arbeitsagentur-jobs-scraper,bibian/infoempleo-jobs-scraper,bibian/latam-jobs-bumeran-scraper,bibian/codeur-projects-scraper,bibian/allocine-movies-scraper,bibian/kisskissbankbank-projects-scraper"
+    }
+  ]
+}
