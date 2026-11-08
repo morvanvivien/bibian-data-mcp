@@ -3,13 +3,22 @@
   "name": "io.github.morvanvivien/bibian-europe-jobs",
   "title": "European job boards: Germany, Spain, Switzerland, Poland, UK, EURES",
   "description": "Job postings from German, Spanish, Swiss, Polish, Swedish and UK job boards plus EURES.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/morvanvivien/bibian-data-mcp",
     "source": "github",
     "subfolder": "servers/europe-jobs"
   },
   "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/europe-jobs",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/morvanvivien/bibian-data-mcp/main/icons/bibian-mcp.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

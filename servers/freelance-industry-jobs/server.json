@@ -3,13 +3,22 @@
   "name": "io.github.morvanvivien/bibian-freelance-industry-jobs",
   "title": "Freelance projects and industry job boards",
   "description": "Freelance projects (Codeur, Freelancer, Workana, PeoplePerHour) and sector job boards.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/morvanvivien/bibian-data-mcp",
     "source": "github",
     "subfolder": "servers/freelance-industry-jobs"
   },
   "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/freelance-industry-jobs",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/morvanvivien/bibian-data-mcp/main/icons/bibian-mcp.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

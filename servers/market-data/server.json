@@ -3,13 +3,22 @@
   "name": "io.github.morvanvivien/bibian-market-data",
   "title": "Prices, property, cars, movies, events and sports data (FR, ES, IT, AR, AU)",
   "description": "Grocery and book prices, hotels, property, used cars, movies, events, tenders and sports scores.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "url": "https://github.com/morvanvivien/bibian-data-mcp",
     "source": "github",
     "subfolder": "servers/market-data"
   },
   "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/market-data",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/morvanvivien/bibian-data-mcp/main/icons/bibian-mcp.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
