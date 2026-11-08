@@ -16,6 +16,21 @@ An MCP server that lets an AI assistant search **public job postings and market 
 
 No login on the source sites, public pages only, no personal data.
 
+<!-- themes:start -->
+## Servers by theme
+
+The whole catalogue is also published as smaller servers, so a client only loads the tools it needs:
+
+| Server (MCP registry name) | Tools | Covers |
+|---|---|---|
+| [io.github.morvanvivien/bibian-france-jobs](servers/france-jobs) | 10 | Job postings and freelance day rates from 8 French job boards, as JSON tools. |
+| [io.github.morvanvivien/bibian-europe-jobs](servers/europe-jobs) | 15 | Job postings from German, Spanish, Swiss, Polish, Swedish and UK job boards plus EURES. |
+| [io.github.morvanvivien/bibian-americas-apac-jobs](servers/americas-apac-jobs) | 14 | Job postings from Latin American, North American and Asia Pacific job boards, as JSON. |
+| [io.github.morvanvivien/bibian-remote-ats-jobs](servers/remote-ats-jobs) | 13 | Remote jobs (RemoteOK, Remotive, WWR, HN) and career pages on Greenhouse, Lever, Workday. |
+| [io.github.morvanvivien/bibian-freelance-industry-jobs](servers/freelance-industry-jobs) | 11 | Freelance projects (Codeur, Freelancer, Workana, PeoplePerHour) and sector job boards. |
+| [io.github.morvanvivien/bibian-market-data](servers/market-data) | 16 | Grocery and book prices, hotels, property, used cars, events, tenders and sports scores. |
+<!-- themes:end -->
+
 ## Connect
 
 Server URL (Streamable HTTP, OAuth with your Apify account):

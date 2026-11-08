@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morvanvivien/bibian-americas-apac-jobs",
+  "title": "Job boards: Latin America, US, Canada, Australia, Singapore",
+  "description": "Job postings from Latin American, North American and Asia Pacific job boards, as JSON.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/morvanvivien/bibian-data-mcp",
+    "source": "github",
+    "subfolder": "servers/americas-apac-jobs"
+  },
+  "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/americas-apac-jobs",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=bibian/latin-america-jobs-scraper,bibian/latam-jobs-bumeran-scraper,bibian/computrabajo-jobs-scraper,bibian/getonbrd-jobs-scraper,bibian/gupy-jobs-scraper,bibian/north-america-jobs-scraper,bibian/jobbank-jobs-scraper,bibian/dice-jobs-scraper,bibian/builtin-jobs-scraper,bibian/themuse-jobs-scraper,bibian/wellfound-jobs-scraper,bibian/asia-pacific-jobs-scraper,bibian/seek-jobs-scraper,bibian/mycareersfuture-jobs-scraper"
+    }
+  ]
+}

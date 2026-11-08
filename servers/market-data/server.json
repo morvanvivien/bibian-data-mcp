@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morvanvivien/bibian-market-data",
+  "title": "Prices, property, cars, events and sports data (FR, ES, IT, AR, AU)",
+  "description": "Grocery and book prices, hotels, property, used cars, events, tenders and sports scores.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/morvanvivien/bibian-data-mcp",
+    "source": "github",
+    "subfolder": "servers/market-data"
+  },
+  "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/market-data",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=bibian/woolworths-products-scraper,bibian/aldi-australia-products-scraper,bibian/preciosclaros-prices-scraper,bibian/casadellibro-books-scraper,bibian/booking-hotels-scraper,bibian/immonot-real-estate-scraper,bibian/studapart-housing-scraper,bibian/autosphere-cars-scraper,bibian/motor-es-cars-scraper,bibian/deautos-cars-scraper,bibian/leboncoin-cars-scraper,bibian/subito-classifieds-scraper,bibian/billetreduc-events-scraper,bibian/e-marchespublics-tenders-scraper,bibian/espn-scores-scraper,bibian/tennisexplorer-scraper"
+    }
+  ]
+}

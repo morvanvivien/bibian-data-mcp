@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morvanvivien/bibian-freelance-industry-jobs",
+  "title": "Freelance projects and industry job boards",
+  "description": "Freelance projects (Codeur, Freelancer, Workana, PeoplePerHour) and sector job boards.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/morvanvivien/bibian-data-mcp",
+    "source": "github",
+    "subfolder": "servers/freelance-industry-jobs"
+  },
+  "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/freelance-industry-jobs",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=bibian/codeur-projects-scraper,bibian/freelancer-projects-scraper,bibian/workana-projects-scraper,bibian/peopleperhour-scraper,bibian/french-freelance-day-rates,bibian/hospitality-jobs-scraper,bibian/wine-agriculture-jobs-scraper,bibian/education-research-jobs-scraper,bibian/nonprofit-jobs-scraper,bibian/trucking-logistics-jobs-scraper,bibian/energy-construction-finance-jobs-scraper"
+    }
+  ]
+}

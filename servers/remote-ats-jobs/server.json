@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morvanvivien/bibian-remote-ats-jobs",
+  "title": "Remote job boards and company career pages (Greenhouse, Lever, Workday)",
+  "description": "Remote jobs (RemoteOK, Remotive, WWR, HN) and career pages on Greenhouse, Lever, Workday.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/morvanvivien/bibian-data-mcp",
+    "source": "github",
+    "subfolder": "servers/remote-ats-jobs"
+  },
+  "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/remote-ats-jobs",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=bibian/remote-jobs-worldwide-scraper,bibian/remoteok-jobs-scraper,bibian/remotive-jobs-scraper,bibian/weworkremotely-jobs-scraper,bibian/workingnomads-jobs-scraper,bibian/jobicy-jobs-scraper,bibian/hackernews-jobs-scraper,bibian/multi-ats-jobs-scraper,bibian/multi-ats-jobs-2-scraper,bibian/multi-ats-jobs-3-scraper,bibian/workday-jobs-scraper,bibian/bamboohr-jobs-scraper,bibian/universal-job-postings-scraper"
+    }
+  ]
+}

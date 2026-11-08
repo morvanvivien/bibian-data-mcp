@@ -1,0 +1,19 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morvanvivien/bibian-france-jobs",
+  "title": "French job boards: Free-Work, HelloWork, France Travail, WTTJ",
+  "description": "Job postings and freelance day rates from 8 French job boards, as JSON tools.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/morvanvivien/bibian-data-mcp",
+    "source": "github",
+    "subfolder": "servers/france-jobs"
+  },
+  "websiteUrl": "https://github.com/morvanvivien/bibian-data-mcp/tree/main/servers/france-jobs",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=bibian/france-jobs-scraper,bibian/free-work-jobs-scraper,bibian/french-freelance-day-rates,bibian/welcometothejungle-scraper,bibian/hellowork-jobs-scraper,bibian/meteojob-jobs-scraper,bibian/francetravail-jobs-scraper,bibian/emploi-territorial-jobs-scraper,bibian/choisirleservicepublic-jobs-scraper,bibian/qapa-jobs-scraper"
+    }
+  ]
+}
