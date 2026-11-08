@@ -28,7 +28,7 @@ The whole catalogue is also published as smaller servers, so a client only loads
 | [io.github.morvanvivien/bibian-americas-apac-jobs](servers/americas-apac-jobs) | 14 | Job postings from Latin American, North American and Asia Pacific job boards, as JSON. |
 | [io.github.morvanvivien/bibian-remote-ats-jobs](servers/remote-ats-jobs) | 13 | Remote jobs (RemoteOK, Remotive, WWR, HN) and career pages on Greenhouse, Lever, Workday. |
 | [io.github.morvanvivien/bibian-freelance-industry-jobs](servers/freelance-industry-jobs) | 11 | Freelance projects (Codeur, Freelancer, Workana, PeoplePerHour) and sector job boards. |
-| [io.github.morvanvivien/bibian-market-data](servers/market-data) | 16 | Grocery and book prices, hotels, property, used cars, events, tenders and sports scores. |
+| [io.github.morvanvivien/bibian-market-data](servers/market-data) | 17 | Grocery and book prices, hotels, property, used cars, movies, events, tenders and sports scores. |
 <!-- themes:end -->
 
 ## Connect

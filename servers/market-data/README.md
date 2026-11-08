@@ -1,6 +1,6 @@
-# Prices, property, cars, events and sports data (FR, ES, IT, AR, AU)
+# Prices, property, cars, movies, events and sports data (FR, ES, IT, AR, AU)
 
-Grocery and book prices, hotels, property, used cars, events, tenders and sports scores. Remote MCP server hosted by [Apify](https://apify.com/mcp), 16 tools maintained by [bibian](https://apify.com/bibian). Public pages only, no login on the source sites, no personal data.
+Grocery and book prices, hotels, property, used cars, movies, events, tenders and sports scores. Remote MCP server hosted by [Apify](https://apify.com/mcp), 17 tools maintained by [bibian](https://apify.com/bibian). Public pages only, no login on the source sites, no personal data.
 
 ## Tools
 
@@ -19,6 +19,7 @@ Grocery and book prices, hotels, property, used cars, events, tenders and sports
 | [Leboncoin Scraper: Pro Car Listings, No Login](https://apify.com/bibian/leboncoin-cars-scraper) | Extract professional car listings from Leboncoin, France's largest classifieds site: brand, model, year, mileage, price, fuel, gearbox, dealer name and location. Dealers only, never a private seller. |
 | [Subito.it Scraper · No Login Needed](https://apify.com/bibian/subito-classifieds-scraper) | Extract classified ads from Subito.it, one of Italy's largest classifieds sites: title, description, price, location and seller type, across any category or region. |
 | [BilletReduc Events Scraper (France)](https://apify.com/bibian/billetreduc-events-scraper) | Extract discounted show and event listings from BilletReduc, a major French ticketing site: title, venue, city, dates, price range, category and rating. |
+| [AlloCiné Movies Scraper (France: now playing & coming soon)](https://apify.com/bibian/allocine-movies-scraper) | Extract the movies now playing in French cinemas, this week's releases and the most awaited upcoming movies from AlloCiné: release date, duration, genres, directors, cast, press and audience ratings, number of showtimes, synopsis and poster. |
 | [e-marchespublics.com Tender Scraper (French Public Procurement)](https://apify.com/bibian/e-marchespublics-tenders-scraper) | Extract French public procurement tenders (appels d'offres) from e-marchespublics.com: title, contracting authority, location, procedure type, submission deadline and a link to the full notice. |
 | [ESPN Scraper: Scores, Schedules & Odds](https://apify.com/bibian/espn-scores-scraper) | Extract live scores, schedules and betting odds from ESPN's public API for NFL, NBA, WNBA, MLB, NHL, NCAA football, NCAA basketball and Premier League soccer. |
 | [Tennis Explorer Scraper · Matches & Odds](https://apify.com/bibian/tennisexplorer-scraper) | Extract ATP and WTA tennis match results, upcoming matches and pre-match odds from Tennis Explorer: tournament, round players, set scores and betting odds for singles and doubles. |
@@ -28,7 +29,7 @@ Grocery and book prices, hotels, property, used cars, events, tenders and sports
 Server URL (Streamable HTTP, OAuth with your Apify account, or `Authorization: Bearer <APIFY_TOKEN>`):
 
 ```
-https://mcp.apify.com?tools=bibian/woolworths-products-scraper,bibian/aldi-australia-products-scraper,bibian/preciosclaros-prices-scraper,bibian/casadellibro-books-scraper,bibian/booking-hotels-scraper,bibian/immonot-real-estate-scraper,bibian/studapart-housing-scraper,bibian/autosphere-cars-scraper,bibian/motor-es-cars-scraper,bibian/deautos-cars-scraper,bibian/leboncoin-cars-scraper,bibian/subito-classifieds-scraper,bibian/billetreduc-events-scraper,bibian/e-marchespublics-tenders-scraper,bibian/espn-scores-scraper,bibian/tennisexplorer-scraper
+https://mcp.apify.com?tools=bibian/woolworths-products-scraper,bibian/aldi-australia-products-scraper,bibian/preciosclaros-prices-scraper,bibian/casadellibro-books-scraper,bibian/booking-hotels-scraper,bibian/immonot-real-estate-scraper,bibian/studapart-housing-scraper,bibian/autosphere-cars-scraper,bibian/motor-es-cars-scraper,bibian/deautos-cars-scraper,bibian/leboncoin-cars-scraper,bibian/subito-classifieds-scraper,bibian/billetreduc-events-scraper,bibian/allocine-movies-scraper,bibian/e-marchespublics-tenders-scraper,bibian/espn-scores-scraper,bibian/tennisexplorer-scraper
 ```
 
 Claude Desktop, Cursor, VS Code and any client that supports remote MCP servers:
@@ -37,7 +38,7 @@ Claude Desktop, Cursor, VS Code and any client that supports remote MCP servers:
 {
   "mcpServers": {
     "bibian-market-data": {
-      "url": "https://mcp.apify.com?tools=bibian/woolworths-products-scraper,bibian/aldi-australia-products-scraper,bibian/preciosclaros-prices-scraper,bibian/casadellibro-books-scraper,bibian/booking-hotels-scraper,bibian/immonot-real-estate-scraper,bibian/studapart-housing-scraper,bibian/autosphere-cars-scraper,bibian/motor-es-cars-scraper,bibian/deautos-cars-scraper,bibian/leboncoin-cars-scraper,bibian/subito-classifieds-scraper,bibian/billetreduc-events-scraper,bibian/e-marchespublics-tenders-scraper,bibian/espn-scores-scraper,bibian/tennisexplorer-scraper"
+      "url": "https://mcp.apify.com?tools=bibian/woolworths-products-scraper,bibian/aldi-australia-products-scraper,bibian/preciosclaros-prices-scraper,bibian/casadellibro-books-scraper,bibian/booking-hotels-scraper,bibian/immonot-real-estate-scraper,bibian/studapart-housing-scraper,bibian/autosphere-cars-scraper,bibian/motor-es-cars-scraper,bibian/deautos-cars-scraper,bibian/leboncoin-cars-scraper,bibian/subito-classifieds-scraper,bibian/billetreduc-events-scraper,bibian/allocine-movies-scraper,bibian/e-marchespublics-tenders-scraper,bibian/espn-scores-scraper,bibian/tennisexplorer-scraper"
     }
   }
 }
