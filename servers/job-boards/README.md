@@ -23,4 +23,4 @@ Header `Authorization: Bearer <APIFY_TOKEN>`.
 }
 ```
 
-$0.002 per job returned, nothing when no job is found. Public pages and public APIs only, no personal data.
+$0.002 per job returned, plus a one-time $0.0025 start fee when the server wakes up; a search with no result adds nothing. Public pages and public APIs only, no personal data.
