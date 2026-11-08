@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.morvanvivien/bibian-job-boards",
+  "title": "Job Boards MCP Server: 35 job sites, 50+ countries, one search_jobs tool",
+  "description": "One search_jobs tool over 35 public job boards in Europe, Latin America, North America and remote.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/morvanvivien/bibian-data-mcp",
+    "source": "github",
+    "subfolder": "servers/job-boards"
+  },
+  "websiteUrl": "https://apify.com/bibian/job-boards-mcp-server",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bibian--job-boards-mcp-server.apify.actor/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by your Apify API token",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
