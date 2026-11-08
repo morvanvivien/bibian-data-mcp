@@ -23,4 +23,4 @@ Header `Authorization: Bearer <APIFY_TOKEN>`.
 }
 ```
 
-$0.002 per job returned, plus a $0.005 start fee per session of up to 2 minutes; a search with no result adds nothing. Public pages and public APIs only, no personal data.
+$0.002 per job returned, plus a $0.005 start fee per session (a session lasts up to 100 seconds); a search with no result adds nothing. Public pages and public APIs only, no personal data.
